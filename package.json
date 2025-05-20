@@ -1,0 +1,45 @@
+{
+  "name": "demo-playwright-component-testing",
+  "version": "0.1.0",
+  "homepage": "http://cuongld2.github.io/demo-react-component-testing",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "gh-pages": "^3.2.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "cypress": "^14.3.3",
+    "vite": "^6.3.5"
+  }
+}
