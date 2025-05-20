@@ -1,11 +1,11 @@
-1. Generate component testing file using Playwright
+1. Run app
 
 ```
-yarn create playwright --ct
+npm run dev
 ```
 
-2. Run the tests
+2. Run the component test
 
 ```
-npm run test-ct
+npm run cypress:componentTest
 ```
